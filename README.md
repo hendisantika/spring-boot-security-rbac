@@ -60,3 +60,22 @@ Date: Mon, 04 Apr 2022 00:55:01 GMT
 }%
 ```
 
+Admin
+
+```shell
+curl -i -u "admin:admin" http://localhost:8080/admin
+HTTP/1.1 200
+Set-Cookie: JSESSIONID=7BA7CCE743CEC8DFA4FF07C759A2A8BB; Path=/; HttpOnly
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+X-Frame-Options: DENY
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 12
+Date: Mon, 04 Apr 2022 00:56:35 GMT
+
+Hello Admin!%
+```
+
