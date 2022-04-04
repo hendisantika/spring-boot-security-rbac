@@ -15,6 +15,8 @@ In an RBAC model there are three key entities. They are:
 
 With that being said, The following is an illustration of how these entities map to each other.
 
+![role](img/role.png "Role")
+
 Basically, Users can perform operations. To perform operations they need to have certain permission or privileges. This
 is why privileges are assigned to roles and roles are assigned to users. Let’s see how we can implement these.
 
